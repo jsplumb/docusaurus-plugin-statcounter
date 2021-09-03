@@ -1,0 +1,5 @@
+{
+  "main": "src/index.js",
+  "name": "statcounter",
+  "version": "1.0.0"
+}
