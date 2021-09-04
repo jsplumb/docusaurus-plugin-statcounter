@@ -15,9 +15,9 @@ npm i @jsplumb/docusaurus-plugin-statcounter
 
 ```json
 plugins:[
-    ...
+
     "@jsplumb/docusaurus-plugin-statcounter",
-    ...
+
 ],
 ```
 
@@ -25,12 +25,12 @@ plugins:[
 
 ```json
 themeConfig: {
-  statCounter:{
+ 
+ statCounter:{
     projectId:"PROJECT ID",
     securityCode:"SECURITY CODE"
   },
-  ...
-  
+ 
 }
 ```
 
