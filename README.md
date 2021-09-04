@@ -13,7 +13,7 @@ npm i @jsplumb/docusaurus-plugin-statcounter
 
 - Add the plugin to the `plugins` array in your `docusaurus.config.js`:
 
-```json
+```javascript
 plugins:[
 
     "@jsplumb/docusaurus-plugin-statcounter",
@@ -23,7 +23,7 @@ plugins:[
 
 - Add a `statCounter` entry to the `themeConfig` section of your `docusaurus.config.js`:
 
-```json
+```javascript
 themeConfig: {
  
  statCounter:{
