@@ -11,7 +11,9 @@ export default (function () {
 
   return {
     onRouteUpdate({location}) {
-      _statcounter.record_pageview()
+      if (typeof _statcounter !== "undefined") {
+        _statcounter.record_pageview()
+      }
     },
   };
 })();
