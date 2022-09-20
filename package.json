@@ -1,5 +1,5 @@
 {
   "main": "src/index.js",
-  "name": "statcounter",
-  "version": "1.0.0"
+  "name": "@jsplumb/docusaurus-plugin-statcounter",
+  "version": "1.0.1"
 }
